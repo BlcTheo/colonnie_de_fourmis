@@ -1,5 +1,14 @@
-#include <iostream>
+#include <SFML/Graphics.hpp>
+#include "system/display/display.hpp"
 
-int main(int, char**){
-    std::cout << "Hello, from colonnie_de_fourmis!\n";
+int main()
+{
+    Display display(800, 600, "Colonie de fourmis");
+
+    while (display.isOpen()) {
+        display.handleEvents();
+        display.render();
+    }
+
+    return 0;
 }
