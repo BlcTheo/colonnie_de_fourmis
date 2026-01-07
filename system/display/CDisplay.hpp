@@ -17,7 +17,7 @@ class CSystem;
  */
 class CDisplay {
 private:
-    // --- Propriétés de la fenêtre ---
+    // --- Propriétés de la fenêtre ---l
     sf::RenderWindow m_window;  // Objet principal de SFML pour gérer la fenêtre et le rendu
     unsigned int m_width;       // Largeur de la fenêtre en pixels
     unsigned int m_height;      // Hauteur de la fenêtre en pixels
